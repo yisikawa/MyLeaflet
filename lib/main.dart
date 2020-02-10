@@ -59,7 +59,8 @@ class _MyHomePageState extends State<MyHomePage> {
           urlTemplate: "https://api.tiles.mapbox.com/v4/"
               "{id}/{z}/{x}/{y}@2x.png?access_token={accessToken}",
           additionalOptions: {
-            'accessToken': 'token',
+            'accessToken':
+                'pk.eyJ1IjoieWlzaWthd2EiLCJhIjoiY2s2YndmdXFuMGZ1bDNsb3ZnMXBsbnI3eSJ9.gftC8NPsB9xNWIVEdWnTvw',
             'id': 'mapbox.streets',
           },
         ),
